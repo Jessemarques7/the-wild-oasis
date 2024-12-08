@@ -69,7 +69,6 @@ const MenusContext = createContext();
 
 function Menus({ children }) {
   const [openId, setOpenId] = useState("");
-  console.log(openId);
   const [position, setPosition] = useState(null);
 
   const close = () => setOpenId("");
